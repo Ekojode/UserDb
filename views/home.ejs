@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3><a href="/">Home</a></h3>
+        <h3><a href="/user">Create User</a></h3>
+    </header>
+    <main>
+        <p>This is User and <%=title %> Directory</p>
+        <% if (userDirectory.length > 0) { %>
+            <ol>
+                <% for (pols of userDirectory) { %>
+                    <li> <%=pols %> </li>
+                    <p>I'm confuaed</p>
+                <% } %>
+            </ol>
+        <% } else { %>
+            <h1> No user yet </h1>
+        <% } %>
+    </main>
+   
+</body>
+</html>
