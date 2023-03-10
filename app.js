@@ -22,5 +22,5 @@ app.listen(port, () => {
 })
 
 
-//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
+
 //https://meet.google.com/rys-jyze-tdx
